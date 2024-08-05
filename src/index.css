@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    transition: all 0.5s ease-in-out;
+}
+html.dark body{
+    background: #000;
+    color: white;
+    button{
+        background: white;
+        color: #000;
+    }
+    button:hover{
+        background: #000;
+        color: white;
+        border: 2px solid white;
+    }
+    input{
+        color: #000;
+    }
+    header{
+        border-bottom: 2px solid white;
+    }
+}
