@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    transition: all 0.5s ease-in-out;
-}
 html.dark body{
     background: #000;
     color: white;
